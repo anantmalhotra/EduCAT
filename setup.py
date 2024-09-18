@@ -12,8 +12,8 @@ setup(
     url='https://github.com/bigdata-ustc/CAT',
     install_requires=[
         'torch',
-        'vegas',
-        'numpy',
+        'vegas==5.4.2',
+        'numpy==1.26.0',
         'scikit-learn',
         'scipy',
     ],  # And any other dependencies foo needs
